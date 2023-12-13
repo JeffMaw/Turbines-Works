@@ -1,0 +1,94 @@
+.head1{
+    text-align: center;
+}
+
+.logo{
+    height: 120px;
+    width: 120px;
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.UnFname{
+    column-count: 2;
+}
+.lnameNemail{
+    column-count: 2;
+}
+.phonediv{
+    column-count: 2;
+}
+.passwords{
+    column-count: 2;
+}
+
+.formdiv{
+    border-radius: 15px;
+  background-color: #f2f2f252;
+  width: 500px;
+  border: 15px solid rgba(0, 55, 128, 0.413);
+  padding: 50px;
+  margin: 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+        background-image: url("pics/GameCentre.jpg");
+        background-size: cover;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+input{
+        border: 2px solid rgba(0, 0, 0, 0.816);
+        border-radius: 12px;
+        height: 20px;
+      }
+
+button{
+        background-color: #0000005f;
+        border: none;
+        border-radius: 12px;
+        color: white;
+        margin: 20px 2px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+
+button:hover{
+    background-color: green;
+}
+
+.vidh1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.vidh2{
+    color: rgb(253, 255, 254);
+    text-align: center;
+}
+.vidh3{
+    color: rgb(255, 255, 255);
+}
+.vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vidp{
+    color: rgb(255, 255, 255);
+}
+.aud{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

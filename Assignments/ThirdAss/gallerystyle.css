@@ -1,0 +1,24 @@
+.vidh1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.vidh2{
+    color: rgb(253, 255, 254);
+    text-align: center;
+}
+.vidh3{
+    color: rgb(255, 255, 255);
+}
+.vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vidp{
+    color: rgb(255, 255, 255);
+}
+.aud{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

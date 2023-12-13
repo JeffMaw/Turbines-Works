@@ -1,0 +1,130 @@
+.head1{
+    text-align: center;
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #262326c8;
+}
+.navbar li {
+    display: inline-block;
+    padding: 0px 30px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar li:hover{
+    color: rgb(0, 255, 51);
+    scale: 1.2;
+}
+
+.navbar a.split {
+    float: right;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+.logo{
+    height: 60px;
+    width: 60px;
+    display: block;
+    border-radius: 50%;
+    padding-top: 10%;
+}
+
+body {
+        background-image: url("GameCentre.jpg");
+        background-size: cover;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+input{
+        border: 2px solid rgba(0, 0, 0, 0.816);
+        border-radius: 12px;
+        height: 20px;
+      }
+
+button{
+        background-color: #0000005f;
+        border: none;
+        border-radius: 12px;
+        color: white;
+        margin: 20px 2px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+
+button:hover{
+    background-color: green;
+}
+
+/* Gallery */
+.vidh1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.gallery{
+    color: rgb(253, 255, 254);
+    text-align: center;
+}
+.vidh2{
+    color: rgb(253, 255, 254);
+    text-align: center;
+}
+.vidh3{
+    color: rgb(255, 255, 255);
+}
+.vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vidp{
+    color: rgb(255, 255, 255);
+}
+.aud{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.vidaud{
+    background-color: black;
+    padding: 40px;
+    margin: 62px;
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.764);
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid rgba(24, 85, 228, 0.788);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.583);
+    color: black;
+  }
+
+  div.desc:hover {
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+  }
+

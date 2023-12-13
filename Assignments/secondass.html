@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GAMELAB FORM</title>
+    <link rel="stylesheet" href="/Assignments/style.css" />
+  </head>
+  <body>
+    <div class="formdiv">
+      <img
+        src="/Assignments/Pics/Gamelab.png"
+        alt="gamelab Logo"
+        class="logo"
+      />
+      <h1 class="head1">SIGN UP</h1>
+      <form
+        action="/Assignments/submit.html"
+        target="_blank"
+        method="post"
+      ></form>
+      <div class="UnFname">
+        <label for="username">Username:</label>
+        <br />
+        <input
+          type="text"
+          id="uname"
+          name="username"
+          placeholder="Your username..."
+          required
+        />
+        <br />
+        <label for="firstname">Fistname:</label>
+        <br />
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your first name..."
+          required
+        />
+      </div>
+      <br />
+      <div class="lnameNemail">
+        <label for="lastname">Lastname:</label>
+        <br />
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name..."
+          required
+        />
+        <br />
+        <label for="email">E-mail:</label>
+        <br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="eg. youremail@gmail.com"
+          required
+        />
+      </div>
+      <br />
+      <div class="phonediv">
+        <label for="phone">Phone Number:</label>
+        <br />
+        <input
+          type="number"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+          required
+        />
+        <br />
+        <label for="phone">Alternate phone Number:</label>
+        <br />
+        <input type="number" id="phone" name="phone" placeholder="*optional*" />
+      </div>
+      <br />
+      <div class="passwords">
+        <label for="password">Password:</label>
+        <br />
+        <input
+          type="password"
+          id="pass"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+        <br />
+        <label for="cpassword">Confirm Password:</label>
+        <br />
+        <input
+          type="password"
+          id="cpass"
+          name="cpassword"
+          placeholder="Confirm password"
+          required
+        />
+      </div>
+      <br />
+      <button type="submit">Submit</button>
+    </div>
+  </body>
+</html>
